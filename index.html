@@ -3,36 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voyage_LeSIEUR</title>
+    <title>Voyage LeSieur</title>
 
     <!-- Link to normalize css page -->
     <link rel="stylesheet" href="css/normalize.css">
 
+    <!-- Link to google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Link to style css page -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Link to style JavaScript page -->
+    <script src="js/script.js" defer></script>
 
 </head>
 <body>
 
-<header>
-    <div class="wrapper">
-        <nav>
-            <img src="image/logo.png" alt="logo avion">
-            <a href="#">Voyage LeSIEUR</a>
-            <ul>
-                <li><a href="#">Magasiner</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    <!-- Header -->
+    <header>
+        <div class="wrapper">
+            
+            <a href="index.html">
+                <img src="image/logo.png" alt="logo Voyage Le LeSieur">
+                <p>Voyage LeSIEUR</p>
+            </a>
 
-<div class="hero">
-    <div class="wrapper">
-        <h1>Trouver tout pour le voyage!</h1>
-    </div>
-</div>
+            <nav> 
+                <ul>
+                    <li><a href="#">Magasiner</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Héro -->
+    <section class="banniere">
+        <div class="wrapper">
+            <h1>Trouver tout pour le voyage!</h1>
+        </div>
+    </section>
+
+    <!-- Transport -->
+    <section class="transport">
+        <div class="wrapper">
+
+            <div class="titre-transport">
+                <h2>Transports</h2>
+                <img class="js-plus" src="image/plus.png" alt="icone plus">
+            </div>
+
+            <div class="conteneur-transport">
+                <!-- Transport Avion -->
+                <article>
+                    <img src="image/avion.jpg" alt="image avion">
+                    <h3>Forfaits <strong>avion</strong></h3>
+                    <p>Voyager rapidement et confortablement</p>
+                </article>
+
+                <!-- Transport Bateau -->
+                <article>
+                    <img src="image/bateau.jpg" alt="image bateau">
+                    <h3>Forfaits <strong>croisière</strong></h3>
+                    <p>Laissez-vous porter par les vagues</p>
+                </article>
+
+                <!-- Transport Auto -->
+                <article>
+                    <img src="image/auto.jpg" alt="image auto">
+                    <h3>Forfaits <strong>voiture</strong></h3>
+                    <p>Voitures de luxe pour plus de confort</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <h4>Voyage LeSieur</h4>
+
+            <nav>
+                <ul>
+                    <li class="facebook"><a href=""></a></li>
+                    <li class="twitter"><a href=""></a></li>
+                    <li class="linkedin"><a href=""></a></li>
+                    <li class="pinterest"><a href=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
     
 </body>
